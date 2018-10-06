@@ -1,7 +1,7 @@
 body {
     width: 100%;
-    overflow: hidden;
-    background: #448fa8;
+    overflow-x: hidden;
+    background: #5cb8d6;
     color: #444444;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 18px;
