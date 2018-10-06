@@ -21,7 +21,7 @@ section {
 
 a {
     text-decoration: none;
-    color: #444444;
+    color: #ffffff;
 }
 
 ul {
@@ -88,4 +88,12 @@ hr {
 
 .purple {
     color: #c586c0;
+}
+
+.experience img {
+    width: 100%;
+}
+
+.instructor {
+    display: inline-block;
 }
