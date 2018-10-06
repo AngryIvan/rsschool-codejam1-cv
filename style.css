@@ -14,6 +14,36 @@ footer {
     margin: 0 auto;
 }
 
+header h1 {
+    display: inline;
+}
+
+nav {
+    display: inline;
+    padding-left: 100px;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    padding: 0 10px;
+}
+
+nav a {
+    color: #444444;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+}
+
 section {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -22,6 +52,10 @@ section {
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+a:hover {
+    color: #444444;
 }
 
 ul {
