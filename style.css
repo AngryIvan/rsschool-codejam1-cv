@@ -19,6 +19,11 @@ section {
     margin-bottom: 50px;
 }
 
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -60,4 +65,8 @@ hr {
 
 .basic-info_name {
     grid-column: 2 / 3;
+}
+
+.summary {
+    text-align: justify;
 }
