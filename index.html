@@ -74,7 +74,29 @@
         </ul>
     </section>
     <section class="code-snippets">
-
+        <h2>Code Snippet:</h2>
+        <p>From <a href="https://github.com/AngryIvan/quadratic-equation/blob/master/src/index.js">quadratic equations</a> task</p>
+        <div class="code">
+            <code>
+            <span class="blue">const</span> solutionArray = [];<br>
+            <span class="green">//retrieving a, b, c from equation string</span><br>
+            <span class="blue">const</span> abc = (equation.split('* x'));<br>
+            <span class="blue">let</span> a = parseInt(abc[0]);<br>
+            <span class="blue">const</span> buffer = abc[1].split('^2');<br>
+            <span class="blue">let</span> b = (buffer[1]).split(' ');<br>
+            b = parseInt(b.join('')); <span class="green">//deleting space between minus sign and a number</span><br>
+            <span class="blue">let</span> c = (abc[2]).split(' ');<br>
+            c = parseInt(c.join('')); <span class="green">//deleting space between minus sign and a number</span><br>
+            <br>
+            <span class="green">//calculate</span><br>
+            <span class="blue">let</span> discrSqrt = Math.sqrt(Math.pow(b, 2) - 4 * a * c);<br>
+            <span class="blue">let</span> x1 = ((-b) + discrSqrt) / (2 * a);<br>
+            <span class="blue">let</span> x2 = ((-b) - discrSqrt) / (2 * a);<br>
+            solutionArray.push(Math.round(x1), Math.round(x2));<br>
+            <br>
+            <span class="purple">return</span> solutionArray.sort((left, right) => left - right);<br>
+          </code>
+        </div>
     </section>
     <section class="experience">
 

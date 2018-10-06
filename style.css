@@ -70,3 +70,22 @@ hr {
 .summary {
     text-align: justify;
 }
+
+.code {
+    width: 100%;
+    padding: 10px;
+    background-color: #292929;
+    color: white;
+}
+
+.green {
+    color: rgb(25, 179, 25);
+}
+
+.blue {
+    color: #499cd6;
+}
+
+.purple {
+    color: #c586c0;
+}
