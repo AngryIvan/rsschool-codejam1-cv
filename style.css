@@ -1,10 +1,10 @@
 body {
-    width: 100%;
     overflow-x: hidden;
-    background: #5cb8d6;
-    color: #444444;
+    width: 100%;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 18px;
+    background: #5cb8d6;
+    color: #444444;
 }
 
 header,
@@ -12,6 +12,10 @@ section,
 footer {
     width: 1024px;
     margin: 0 auto;
+}
+
+header {
+    padding-top: 20px;
 }
 
 header h1 {
